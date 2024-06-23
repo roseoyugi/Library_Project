@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+}
+
+.book-card button {
+    margin-top: 10px;
+}
+
+
+.library{
+   
+    text-align:center;
+    border: 0.1px solid red;
+    padding-top:80px;
+    padding-left:80px;
+    padding-right:50px;
+    padding-bottom:40px;
+    background-color: rgb(246, 238, 238);
+    margin-right:50px;
+    margin-left:50px;
+    border-radius:20px;
+}
+h1{
+    text-align:center;
+}
+
+#new-book-btn{
+    background-color:red;
+    margin-bottom:10px;
+    outline: none;
+    border-radius:20px;
+    width:150px;
+    height:40px;
+    border-style: none;
+}
+
+.user-input{
+    margin:10px;
+    border-radius:5px;
+    width:250px;
+    height:30px;
+}
+.form-group{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#submit-btn{
+    margin:20px;
+    background-color: red;
+    border-radius:7px;
+    width:100px;
+    height:30px;
+    border-style:none;
+}
+
+.form{
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    display: flex;
+}
+.read{
+transform:scale(2.5);
+margin-left:10px;
+margin-top:10px;
+border-style: none;
+}
